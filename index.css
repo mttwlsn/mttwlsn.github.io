@@ -1,0 +1,122 @@
+
+
+html, body{
+    margin:0;
+}
+
+.container-fluid{
+    /* background-image: url("temp_background.jpg"); */
+    background-color: #006241;
+
+    height: 100vh;
+}
+
+
+.header{
+    height: 10%;
+    /* background-color: blue; */
+
+}
+
+.center{
+    height: 70%;
+    /* background-color: pink; */
+}
+
+
+
+
+.me {
+    border-radius: 50%;
+    display: block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 25vw;
+    max-width: 25vw;
+}
+
+
+p{
+color: rgb(0, 0, 0);
+
+}
+
+.information{
+    padding: 0px !important;
+}
+
+
+.name{
+    margin-top: 7%;
+    text-align: left;
+    font-size: 4vw;
+}
+
+.title{
+   text-align: left;
+   font-size: 2vw;
+}
+
+.desc{
+    text-align: left;
+    font-size: 1vw;
+    width: 66%;
+}
+
+
+/* links */
+
+
+/* div */
+.links{
+    height: 10%;
+    /* background-color: red; */
+}
+
+
+/* img */
+.link{
+    display: block;
+    /* margin-top: 60%; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 4vw;
+    width: 4vw;
+    opacity: .75;
+}
+
+.label{
+    display: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* opacity: 1; */
+    font-weight: bold;
+}
+
+
+
+/* header */
+.home{
+    height: 3vw;
+    width: 3vw;
+    margin: 2vw;
+    
+}
+
+
+
+/* footer */
+.footer{
+    padding: 0px;
+    margin:0px;
+    text-align: right;
+    padding-top: 3vh;
+    height: 10%;
+    color: rgb(225, 255, 0);
+    /* background-color: #99aabb; */
+
+}
+
+

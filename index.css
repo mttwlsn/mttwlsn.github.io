@@ -6,7 +6,7 @@ html, body{
 
 .container-fluid{
     /* background-image: url("temp_background.jpg"); */
-    background-color: #1d2335;
+    background-color: #006241;
 
     height: 100vh;
 }
@@ -38,7 +38,7 @@ html, body{
 
 
 p{
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 
 }
 
@@ -114,7 +114,7 @@ color: rgb(255, 255, 255);
     text-align: right;
     padding-top: 3vh;
     height: 10%;
-    color: black;
+    color: rgb(225, 255, 0);
     /* background-color: #99aabb; */
 
 }

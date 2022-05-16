@@ -5,8 +5,8 @@ html, body{
 }
 
 .container-fluid{
-    /* background-image: url("temp_background.jpg"); */
-    background-color: #3b6356;
+    /* \background-image: url("temp_background.jpg"); */
+    background-color: #537d70;
 
     height: 100vh;
 }
@@ -38,7 +38,7 @@ html, body{
 
 
 p{
-color: rgb(218, 216, 216);
+color: rgb(62, 67, 60);
 
 }
 

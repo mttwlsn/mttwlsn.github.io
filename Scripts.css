@@ -1,0 +1,59 @@
+
+html, body{
+    margin:0;
+}
+.container-fluid{
+    /* background-image: url("temp_background.jpg"); */
+    background-color: #4a8167;
+    height: 100vh;
+}
+p{
+    color: black;
+}
+
+.information{
+    padding: 0px !important;
+}
+
+.home{
+    height: 3vw;
+    width: 3vw;
+    margin: 2vw;
+    
+}
+
+
+
+.hello{
+    text-align: center;
+    font-size: 5vh;
+    font-family: "Georgia", serif;
+    width: 50%;
+}
+
+
+.links{
+    margin-top: 10%;
+    /* height: 10%; */
+    /* background-color: red; */
+}
+
+/* img */
+.link{
+    display: block;
+    /* margin-top: 60%; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 4vw;
+    width: 4vw;
+    opacity: .75;
+}
+
+.label{
+    display: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* opacity: 1; */
+    font-weight: bold;
+}

@@ -1,61 +1,47 @@
 
-html, body{
-    margin:0;
-}
-.container-fluid{
-    /* background-image: url("temp_background.jpg"); */
-    background-color: #51917d;
-    height: 100vh;
-}
-p{
-    color: black;
-}
-
-.information{
-    padding: 0px !important;
-}
-
-.home{
-    height: 3vw;
-    width: 3vw;
-    margin: 2vw;
-    
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 30px 70px;
 }
 
 
 
-.hello{
-    text-align: center;
-    font-size: 5vh;
-    font-family: "Georgia", serif;
-    width: 50%;
+
+
+
+.logo{
+    cursor: pointer;
 }
-
-
-.links{
-    margin-top: 10%;
-    /* height: 10%; */
-    /* background-color: red; */
+.nav-area{
+    list-style: none;
 }
-
-/* img */
-.link{
-    display: block;
-    /* margin-top: 60%; */
-    margin-left: auto;
-    margin-right: auto;
-    height: 4vw;
-    width: 4vw;
-    opacity: .75;
+.nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
 }
-
-.label{
-    display: none;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    /* opacity: 1; */
-    font-weight: bold;
+.nav-area li a{
+    transition: all .3s ease 0s;
+    color: rgb(24, 23, 23);
+}
+.nav-area li a:hover{
+    color: #87389c;
+}
+.btn-area {
+    cursor: pointer;
+    color: rgb(18, 25, 113);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #000000;            
 }
 
 body {
@@ -63,7 +49,7 @@ body {
     grid-template-rows: 1fr 10rem auto;
     grid-template-areas:"main" "." "footer";
     overflow-x:hidden;
-    background:#F5F7FA;
+    background:#571180;
     min-height:100vh;
     font-family: 'Open Sans', sans-serif;
     .footer {

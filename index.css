@@ -1,12 +1,17 @@
 
 
-html, body{
-    margin:0;
-}
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-image: linear-gradient(to top, #51917d 0%, #494a4f 100%);
+  }
+  
 
 .container-fluid{
     /* \background-image: url("temp_background.jpg"); */
-    background-color: #51917d;
+    background-color: #537d70;
 
     height: 100vh;
 }
@@ -28,7 +33,7 @@ html, body{
 
 .me {
     border-radius: 50%;
-    display: flexbox;
+    display: flex;
     margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
